@@ -25,7 +25,10 @@
       <div class="logo">
         <img src="img/logo-kabupaten-jember-removebg-preview.png" alt="Logo Jember">
       </div>
-      <ul>
+      <button id="menu-btn">
+        <i class="material-symbols-outlined">menu</i>
+      </button>
+      <ul id="nav-links">
         <li><a href="#sejarah">Sejarah</a></li>
         <li><a href="#geografis">Geografis</a></li>
         <li><a href="#wisata">Wisata</a></li>
@@ -39,28 +42,29 @@
         <h2>Sejarah</h2>
         <div class="slideshow-container">
 
-          <div class="slide fade">
-            <div class="angka-slide">1 / 3</div>
-            <img src="img/jember-masa-lalu.jpg" width="100%">
-            <div class="deskripsi">Potret lampau Kabupaten Jember </div>
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="img/pasar-tanjung.jpg" style="width:100%">
+            <div class="text">Pasar Tanjung</div>
           </div>
 
-          <div class="slide fade">
-            <div class="angka-slide">2 / 3</div>
-            <img src="img/kantor-bupati-jember.jpg" style="width: 100%">
-            <div class="deskripsi">Kantor Kabupaten Jember</div>
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="img/jember-masa-lalu.jpg" style="width:100%">
+            <div class="text">Jember tempo doloe</div>
           </div>
 
-          <div class="slide fade">
-            <div class="angka-slide">3 / 3</div>
-            <img src="img/pasar-tanjung.jpg" style="width: 100%">
-            <div class="deskripsi">Pasar Tanjung</div>
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="img/kantor-bupati-jember.jpg" style="width:100%">
+            <div class="text">Kantor Bupati Jember</div>
           </div>
 
           <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
           <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
         <br>
+
         <div style="text-align:center">
           <span class="dot" onclick="currentSlide(1)"></span>
           <span class="dot" onclick="currentSlide(2)"></span>
@@ -70,8 +74,8 @@
           Jember dalam sejarah dan perjalanannya di mulai dari masa kerajaan dalam hal ini Majapahit adalah salah satu
           kerajaan yang memiliki andil besar terhadap dimulainya peradaban Jember. Cerita Jember menurut buku
           Nagarakretagama (1953) karangan Prof. Slamet Muljana seorang ahli Filologi dari Universitas indonesia (UI).
-          Buku ini kebetulan salah satu dari koleksi buku sejarah Perpustakaan universitas Muhammadiyah Jember. Menurut
-          buku tersebut tertulis bahwa Raja Majapahit Hayam Wuruk yang bergelar "Rakryan Mantri Maka Pramuka" mencapai
+          Menurut buku tersebut tertulis bahwa Raja Majapahit Hayam Wuruk yang bergelar "Rakryan Mantri Maka Pramuka"
+          mencapai
           masa kejayaannya dalam memerintah Majapahit bersama Mahapati Amangkubumi Gajah Mada dan beliau bersama para
           punggawa kerajaan melakukan perjalanan dari Majapahit menuju wilayah timur hingga daerah Patukangan Situbondo.
           Jember adalah sebagai daerah perlintasan Raja beserta rombongan pada tahun 1359 M. Terbukti dengan bekas
@@ -130,16 +134,124 @@
         </p>
       </article>
 
-      <article id="Wisata" class="card">
+      <article id="wisata" class="card">
         <h2>Wisata</h2>
-        <p>
-
+        <p>Jember, terkenal akan keindahan alamnya yang memukau, mulai dari
+          pantai-pantai yang memesona hingga pegunungan yang menenangkan. Selain kekayaan alam, Jember juga menyimpan
+          pesona budaya dan kuliner yang khas. Dengan iklim tropis yang ramah dan masyarakat yang hangat, Jember menjadi
+          salah satu destinasi wisata favorit bagi pelancong yang ingin menikmati suasana tenang sekaligus berpetualang.
+          Berikut adalah beberapa destinasi wisata unggulan di Jember:
         </p>
+
+        <section>
+          <h3>Pantai Tanjung Papuma</h3>
+          <img src="img/tanjung-papuma.jpg" alt="Pantai Tanjung Papuma" class="featured-image">
+          <p>
+            Pantai Papuma adalah salah satu destinasi wisata yang menjadi kebanggaan Jember, Jawa Timur. Terkenal
+            dengan pasir putihnya yang lembut dan pemandangan alam yang luar biasa, pantai ini menawarkan pengalaman
+            wisata yang memadukan keindahan laut, tebing-tebing megah, dan suasana tropis yang menenangkan.
+          </p>
+          <p>
+            Nama Papuma sendiri adalah singkatan dari "Pasir Putih Malikan," yang menggambarkan daya tarik utama pantai
+            ini, yaitu hamparan pasir putih yang berpadu dengan batuan malikan—batu-batu besar di sepanjang pantai yang
+            unik dan khas. Pemandangan di Pantai Papuma semakin memikat dengan adanya deretan perahu nelayan yang
+            menambah kesan tradisional dan otentik pada suasana pantai.
+          </p>
+          <p>
+            Pantai Papuma juga memiliki tujuh batu karang besar yang menjulang di tengah laut. Salah satu yang paling
+            ikonik adalah Batu Narada, yang menjadi spot favorit wisatawan untuk berfoto. Saat air laut surut,
+            pengunjung bisa berjalan mendekati batuan tersebut dan menjelajahi keindahan biota laut di sekitar karang.
+          </p>
+          <p>
+            Selain keindahan alamnya, Pantai Papuma juga menawarkan suasana tenang dan asri, menjadikannya tempat yang
+            ideal untuk bersantai atau menikmati matahari terbenam yang spektakuler. Bagi para pecinta fotografi,
+            pemandangan di Pantai Papuma merupakan objek yang tak pernah mengecewakan.
+          </p>
+          <p>
+            Pantai ini juga dikenal sebagai lokasi dengan cerita-cerita mitos yang menambah daya tariknya. Salah satu
+            legenda yang populer adalah keberadaan Gua Lawa, sebuah gua kecil yang diyakini sebagai tempat meditasi dan
+            memiliki nilai mistis bagi masyarakat setempat.
+          </p>
+          <p>
+            Dengan keindahan alamnya yang menawan dan daya tarik budayanya, Pantai Papuma menjadi destinasi yang
+            sempurna untuk menikmati keajaiban alam Jember sambil merasakan kehangatan budaya lokal.
+          </p>
+        </section>
+        <section>
+          <h3>Pantai Watu Ulo</h3>
+          <img src="img/pantai-watu-ulo.png" alt="Pantai Watu Ulo" class="featured-image">
+          <p>
+            Pantai Watu Ulo adalah salah satu destinasi wisata alam yang populer di Jember, Jawa Timur. Pantai ini
+            terkenal dengan keindahan alamnya yang memukau serta cerita legenda yang menyelimuti namanya. Terletak di
+            pesisir selatan Jember, pantai ini menawarkan perpaduan antara pemandangan laut yang luas, deburan ombak
+            yang khas, dan formasi batuan unik yang menjadi daya tarik utamanya.
+          </p>
+          <p>
+            Nama "Watu Ulo" yang berarti "batu ular" dalam bahasa Jawa berasal dari deretan batu memanjang yang
+            menyerupai tubuh ular raksasa di sepanjang pantai. Legenda lokal mengisahkan bahwa batu ini adalah bagian
+            dari tubuh seekor ular besar yang pernah hidup di kawasan tersebut, menambah aura mistis yang menarik
+            perhatian wisatawan.
+          </p>
+          <p>
+            Selain pemandangan uniknya, Pantai Watu Ulo juga dikelilingi oleh bukit hijau yang memberikan latar belakang
+            alami yang indah. Ombaknya yang cukup besar menjadikan pantai ini tempat yang menarik bagi para peselancar,
+            meskipun tetap memerlukan kehati-hatian karena arus laut yang kuat.
+          </p>
+          <p>
+            Di sekitar pantai, pengunjung dapat menemukan kios-kios yang menjual berbagai hasil laut segar, kerajinan
+            tangan, serta makanan khas Jember. Hal ini membuat Pantai Watu Ulo tidak hanya menjadi tempat untuk
+            menikmati keindahan alam, tetapi juga lokasi yang cocok untuk mengenal budaya dan kehidupan masyarakat
+            pesisir.
+          </p>
+          <p>
+            Pantai ini juga sering digunakan sebagai lokasi acara budaya dan tradisional, seperti ritual larung sesaji,
+            yang menambah daya tariknya sebagai destinasi wisata yang kaya akan nilai sejarah dan budaya. Dengan
+            keindahan alamnya yang eksotis serta legenda yang memikat, Pantai Watu Ulo menjadi salah satu tujuan yang
+            wajib dikunjungi bagi siapa saja yang menjelajahi Jember.
+          </p>
+        </section>
+
+        <section>
+          <h3>Gunung Gambir</h3>
+          <img src="img/gunung-gambir.png" alt="Gunung Gambir" class="featured-image">
+          <p>
+            Kebun Teh Gunung Gambir adalah salah satu destinasi wisata alam yang menenangkan di Jember, Jawa Timur.
+            Terletak di Kecamatan Sumberbaru, kebun teh ini berada di ketinggian yang membuatnya memiliki udara sejuk
+            dan menyegarkan khas pegunungan. Dengan sejarah panjang sejak masa kolonial Belanda, tempat ini tidak hanya
+            menyuguhkan keindahan alam, tetapi juga memiliki nilai historis yang menarik.
+          </p>
+          <p>
+            Hamparan hijau kebun teh yang terawat rapi menciptakan pemandangan menakjubkan sejauh mata memandang.
+            Suasana tenang dan udara segar menjadi daya tarik utama bagi pengunjung yang ingin melepas penat dan mencari
+            ketenangan. Lanskapnya yang fotogenik menjadikan kebun teh ini surga bagi para pecinta fotografi, terutama
+            saat pagi hari ketika kabut tipis masih menyelimuti area perkebunan.
+          </p>
+          <p>
+            Selain menikmati keindahan alam, pengunjung juga dapat belajar tentang proses pengolahan teh, mulai dari
+            pemetikan daun hingga menjadi produk siap konsumsi. Bangunan-bangunan tua bergaya kolonial di sekitar kebun
+            menambah daya tarik tempat ini, memberikan sentuhan historis yang memperkaya pengalaman berkunjung.
+          </p>
+          <p>
+            Akses ke Kebun Teh Gunung Gambir menawarkan perjalanan yang menyenangkan dengan pemandangan pegunungan yang
+            memukau sepanjang jalan. Suasana pegunungan yang sejuk berpadu dengan keindahan alam menjadikan kebun teh
+            ini destinasi ideal untuk bersantai dan meresapi keindahan Jember.
+          </p>
+          <p>
+            Menikmati secangkir teh hangat sambil memandangi hijauan kebun adalah pengalaman yang tak terlupakan. Bagi
+            siapa saja yang mendambakan kedamaian, Kebun Teh Gunung Gambir adalah pilihan yang tepat untuk melarikan
+            diri dari kesibukan sehari-hari.
+          </p>
+        </section>
       </article>
     </div>
+
+    <aside>
+
+    </aside>
   </main>
 
   <script src="main.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
   <footer>
     <p>
       Belajar Dasar Pemrograman Web &#169; 2024, Dicoding Academy
